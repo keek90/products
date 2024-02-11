@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    width: 800px;
+    box-shadow:  0px 0px 10px 0px rgba(0,0, 0, 1);
+}
+
+    .protest-riot-regular {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color:  #f2709c;
+      }
+.eb-garamond {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+      
+

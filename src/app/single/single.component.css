@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 800px;
+    width: 100%;
+    box-shadow:  0px 0px 10px 0px rgba(0,0, 0, 1);;
+}
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2709c;
+    font-size: 50px;
+}
+.card-text{
+    font-size: 20px;
+}
+h2{
+    color: #f2709c;
+}

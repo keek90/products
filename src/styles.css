@@ -1,21 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
-/*img{
-    width: 400px;
-    height: 200px;
-    padding: 20px;
-}
-.card{
-    width: 240px;
-    height: 650px;
-    border: 20px;
-}*/
-body{
-    background: #ddd6f3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #faaca8, #ddd6f3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #faaca8, #ddd6f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-/*.btn{
+
+.btn{
     padding: 20px;
     margin-left: 60px;
-    margin-bottom: 10px;
-}*/
+}
+body {
+    background-color: #ffdde1;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  footer {
+    background-color: #191318;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    margin-left: 0px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+nav{
+    background-color: #ee9ac7;
+    margin-left: 0;
+}

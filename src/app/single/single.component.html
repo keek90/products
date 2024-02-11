@@ -1,0 +1,22 @@
+<div class="card mb-3" style="max-width: 1000px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{data.image}}" class="img-fluid rounded-start" alt="..."> 
+    </div>
+   
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{data.title}}</h5>
+        <p class="card-text">{{data.description}}</p>
+        <h2>{{data.price}}$</h2>
+        <button type="button" class="btn btn-outline-primary">Shop Now</button>
+          <div class="rating-container" style="display: flex;margin: 30px;">
+           <span class="rating" *ngFor="let star of getStars(data.rating.rate)" >
+              <i [class]="'fa ' + (star ? 'fa-solid':'fa-regular') + ' fa-star'" style="color:gold"></i>        
+            </span>
+            
+          </div>
+      </div>
+    </div>
+</div>
+</div>
